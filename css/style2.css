@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.top-bar{width: 100%; height:50px; background-color: #056CB6 ;line-height: 50px; color:white}
+.top-bar a{color:white}
+.top-bar a:hover{color:#FFC113}
+.navbar .navbar-nav .nav-item .nav-link{ padding:8px 15px; border-radius: 10px ; color:#1F1F1F}
+.navbar .navbar-nav .nav-item .nav-link:hover{background-color:#056CB6; color:#FFC113 }
+.navbar .navbar-nav .nav-item .dropdown-menu{background-color:#056CB6 ;padding-bottom: 0px; padding-top: 0px; width: 200px }
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{color:white}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{background-color:#FFC113; padding-left: 22px; transition: all 0.7s }
+.navbar .navbar-nav .nav-item .dropdown-menu li{border-bottom: 1px solid white}
+main{width:100%; min-height: 800px}
+footer{width: 100%; min-height: 300px; color: white}
+.gach-chan{border-bottom: 2px solid #FFC113 }
+footer .navbar-nav .nav-item .nav-link:hover{color:#FFC113}
+.bottom-bar{width:100%; height:50px; line-height: 50px; color: white}
+#service a{color:#056CB6;text-decoration: none}
+#service a:hover{color:#FFC113}
+#why{width:100%; min-height:350px; background: url("../images/why.jpg"); background-repeat:no-repeat; background-position:top center; backgound-size:cover}
+#hinhanh .hinh{width:100%; position: relative}
+#hinhanh .truoc{position:absolute; left:0; top:0; padding:5px;background-color: rgba(155,155,155,0.65)}
+#hinhanh .sau{position:absolute; left:50%; top:0; padding:5px;background-color: rgba(155,155,155,0.65)}
+.img-banner{position:relative}
+.caption{position:absolute; left:10%; bottom:15%}
+.button-banner{text-decoration: none}
+.form-control{padding:5px; margin-bottom:10px; width:30%}
+.form-control-2{padding:5px;margin-bottom: 10px;width:100%; border-radius: 10px}
+.vien-xam{width:100%;min-height:200px; border: 1px #707070 solid; border-radius: 10px;padding: 10px;margin-bottom: 8px }
+#camnhan .noidung img{width: 50px; height: 50px}
+#camnhan .noidung{display: flex; flex-direction: column; justify-content: center; align-items: center}
+#camnhan .vienvang{border: 3px solid #FFC113; padding: 3px}
+#tin-tuc a{text-decoration: none; color:#404040}
+#tin-tuc a:hover{color:#FFC113}
+#banner{width: 100%; min-height: 250px; background: url("../images/pageheader.png"); background-repeat: no-repeat; background-size: cover; background-position: top}
+
+
+
+
+
+
+
+
+
+#cn .owl-nav { position:absolute; left:0px; top:33%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:30px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: gray
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#056CB6;
+      text-decoration: none; }
